@@ -1,0 +1,80 @@
+{
+    "effect": "hole",
+    "effects_playlist": [
+        "black_hole",
+        "circuit_board",
+        "cyber_city",
+        "deep_space",
+        "neon_dna",
+        "starfield",
+        "thaumcraft",
+        "mc_torch",
+        "fractal_web",
+        "aurora"
+    ],
+    "playlist_interval": 5000,
+    "background": {
+        "type": "none",
+        "path": "res/sukuna-jujutsu-kaisen.mp4"
+    },
+    "widgets": [
+        {
+            "type": "clock",
+            "anchor": "top-left",
+            "x": 40,
+            "y": 40,
+            "time_format": "HH:mm",
+            "time_size": 50
+        },
+        {
+            "type": "quotes",
+            "anchor": "top-right",
+            "x": 40,
+            "y": 40,
+            "font_size": 14,
+            "interval": 5000,
+            "quotes": [
+                "The only limit is your mind.",
+                "Code is poetry in motion.",
+                "Stay hungry, stay foolish.",
+                "Simplicity is the ultimate sophistication.",
+                "Excellence is not an act, but a habit."
+            ]
+        },
+        {
+            "type": "cpu",
+            "anchor": "bottom-left",
+            "x": 40,
+            "y": 110,
+            "font_size": 10
+        },
+        {
+            "type": "ram",
+            "anchor": "bottom-left",
+            "x": 40,
+            "y": 70,
+            "font_size": 10
+        },
+        {
+            "type": "network",
+            "anchor": "bottom-left",
+            "x": 40,
+            "y": 40,
+            "font_size": 9
+        },
+        {
+            "type": "text",
+            "anchor": "center",
+            "x": 0,
+            "y": 180,
+            "text": "GRAVITY WELL ACTIVE",
+            "color": [
+                255,
+                100,
+                0,
+                150
+            ],
+            "font_size": 12
+        }
+    ]
+}

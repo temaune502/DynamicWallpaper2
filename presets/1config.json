@@ -1,0 +1,29 @@
+{
+    "effect": "warp_speed",
+    "effects_playlist": [],
+    "playlist_interval": 30000,
+    "background": {
+        "type": "none",
+        "path": ""
+    },
+    "widgets": [
+        {
+            "type": "weather_glass",
+            "anchor": "top-left",
+            "x": 789,
+            "y": 67
+        },
+        {
+            "type": "system_monitor",
+            "anchor": "top-left",
+            "x": 742,
+            "y": 367
+        },
+        {
+            "type": "digital_clock",
+            "anchor": "top-left",
+            "x": 772,
+            "y": 662
+        }
+    ]
+}

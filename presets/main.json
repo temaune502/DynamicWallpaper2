@@ -1,0 +1,27 @@
+{
+    "effect": "starfield",
+    "fps": 30,
+    "show_background": false,
+    "effects_playlist": [],
+    "playlist_interval": 20000,
+    "background": {
+        "type": "image",
+        "path": "res/0442af7cbfafcad8d3ae666c3eda5e45.jpg"
+    },
+    "widgets": [
+        {
+            "type": "clock",
+            "anchor": "top-left",
+            "x": 36,
+            "y": 33,
+            "time_format": "HH:mm:ss",
+            "time_size": 50
+        },
+        {
+            "type": "text",
+            "anchor": "top-left",
+            "x": 35,
+            "y": 142
+        }
+    ]
+}

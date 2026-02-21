@@ -1,0 +1,24 @@
+{
+    "effect": "neon_grid",
+    "effects_playlist": [],
+    "playlist_interval": 30000,
+    "background": {
+        "type": "image",
+        "path": "res\\0442af7cbfafcad8d3ae666c3eda5e45.jpg"
+    },
+    "widgets": [
+        {
+            "type": "clock",
+            "anchor": "top-left",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "type": "weather",
+            "anchor": "top-left",
+            "x": 101,
+            "y": 198,
+            "condition": "Cloudy"
+        }
+    ]
+}

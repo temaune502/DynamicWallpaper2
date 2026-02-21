@@ -1,0 +1,19 @@
+{
+    "effect": "space",
+    "show_background": true,
+    "effects_playlist": [],
+    "playlist_interval": 15000,
+    "background": {
+        "type": "none"
+    },
+    "widgets": [
+        {
+            "type": "clock",
+            "anchor": "top-right",
+            "x": 30,
+            "y": 30,
+            "time_format": "HH:mm:ss",
+            "time_size": 40
+        }
+    ]
+}
