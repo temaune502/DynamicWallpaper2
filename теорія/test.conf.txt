@@ -1,0 +1,26 @@
+{
+    "effect": "snowfall",
+    "effects_playlist": [
+        "flow",
+        "mc_torch",
+        "silk",
+        "starfield",
+        "water",
+        "deep_space"
+    ],
+    "playlist_interval": 40000,
+    "background": {
+        "type": "image",
+        "path": "res\\cat.jpg"
+    },
+    "widgets": [
+        {
+            "type": "clock",
+            "anchor": "top-left",
+            "x": 84,
+            "y": 45,
+            "time_format": "HH:mm:ss",
+            "font_size": 22
+        }
+    ]
+}
