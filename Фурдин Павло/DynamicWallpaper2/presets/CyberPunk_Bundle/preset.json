@@ -1,0 +1,23 @@
+{
+    "effect": "neon_pulse",
+    "effect_config": {
+        "speed": 2.0,
+        "color": [
+            0,
+            255,
+            255
+        ]
+    },
+    "background": {
+        "type": "none"
+    },
+    "widgets": [
+        {
+            "type": "clock",
+            "anchor": "bottom-right",
+            "x": 50,
+            "y": 50
+        }
+    ],
+    "fps": 60
+}

@@ -1,0 +1,33 @@
+{
+    "effect": "glitch",
+    "effects_playlist": [
+        "glitch",
+        "digital_rain",
+        "water",
+        "neon_grid"
+    ],
+    "playlist_interval": 15000,
+    "background": {
+        "type": "none",
+        "path": ""
+    },
+    "widgets": [
+        {
+            "type": "clock",
+            "anchor": "center",
+            "x": 0,
+            "y": 0,
+            "font_size": 72,
+            "time_format": "HH:mm",
+            "date_format": "dddd, d MMMM"
+        },
+        {
+            "type": "text",
+            "anchor": "bottom-right",
+            "x": 30,
+            "y": 30,
+            "font_size": 12,
+            "text": "DYNAMIC_CORE_ACTIVE // SYNC_OK"
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "effect": "snowfall",
+    "effects_playlist": [
+        "flow",
+        "mc_torch",
+        "silk",
+        "starfield",
+        "water",
+        "deep_space"
+    ],
+    "playlist_interval": 40000,
+    "background": {
+        "type": "image",
+        "path": "res\\0442af7cbfafcad8d3ae666c3eda5e45.jpg"
+    },
+    "widgets": [
+        {
+            "type": "clock",
+            "anchor": "top-left",
+            "x": 84,
+            "y": 45,
+            "time_format": "HH:mm:ss",
+            "font_size": 22
+        },
+        {
+            "type": "weather",
+            "anchor": "top-left",
+            "x": 84,
+            "y": 151,
+            "city": "Boyanets",
+            "region": "Lviv",
+            "country": "Ukraine",
+            "display_name": "Boyanets"
+        },
+        {
+            "type": "audio_visualizer",
+            "anchor": "center",
+            "x": 0,
+            "y": 50,
+            "bars": 30,
+            "gain": 0.7,
+            "color_top": "#FF0080",
+            "color_bottom": "#7928CA"
+        }
+    ]
+}

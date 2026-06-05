@@ -1,0 +1,26 @@
+{
+    "effect": "none",
+    "fps": 60,
+    "effects_playlist": [],
+    "playlist_interval": 30000,
+    "background": {
+        "type": "video",
+        "path": "res\\1.mp4"
+    },
+    "widgets": [
+        {
+            "type": "audio_visualizer",
+            "anchor": "top-left",
+            "x": 711,
+            "y": 458
+        },
+        {
+            "type": "clock",
+            "anchor": "top-left",
+            "x": 705,
+            "y": 342,
+            "font_size": 14,
+            "time_format": "HH:mm:ss"
+        }
+    ]
+}

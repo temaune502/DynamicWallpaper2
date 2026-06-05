@@ -1,0 +1,19 @@
+{
+    "effect": "matrix",
+    "show_background": false,
+    "effects_playlist": [],
+    "playlist_interval": 30000,
+    "background": {
+        "type": "none"
+    },
+    "widgets": [
+        {
+            "type": "clock",
+            "anchor": "center",
+            "x": 0,
+            "y": 0,
+            "time_format": "HH:mm",
+            "time_size": 80
+        }
+    ]
+}

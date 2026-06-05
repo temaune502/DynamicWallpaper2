@@ -1,0 +1,57 @@
+{
+    "effect": "space_force_field",
+    "effects_playlist": [
+        "space_force_field",
+        "wormhole",
+        "starfield"
+    ],
+    "playlist_interval": 60000,
+    "background": {
+        "type": "none",
+        "path": ""
+    },
+    "widgets": [
+        {
+            "type": "clock",
+            "anchor": "top-right",
+            "x": 40,
+            "y": 40,
+            "font_size": 48,
+            "time_format": "HH:mm:ss",
+            "date_format": "dddd, MMMM d"
+        },
+        {
+            "type": "weather",
+            "anchor": "top-right",
+            "x": 40,
+            "y": 140,
+            "font_size": 22,
+            "city": "Cyberia",
+            "temp": -12,
+            "condition": "Cloudy"
+        },
+        {
+            "type": "quotes",
+            "anchor": "bottom-left",
+            "x": 50,
+            "y": 50,
+            "font_size": 18
+        },
+        {
+            "type": "text",
+            "anchor": "top-left",
+            "x": 40,
+            "y": 40,
+            "font_size": 16,
+            "text": "STATION STATUS: OPERATIONAL"
+        },
+        {
+            "type": "text",
+            "anchor": "top-left",
+            "x": 40,
+            "y": 70,
+            "font_size": 14,
+            "text": "SHIELD CAPACITY: 100%"
+        }
+    ]
+}

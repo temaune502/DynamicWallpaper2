@@ -1,0 +1,134 @@
+{
+    "effect": "cyber_swarm",
+    "effect_config": {
+        "count": 50,
+        "hue_min": 0,
+        "hue_max": 60
+    },
+    "fps": 30,
+    "show_background": true,
+    "background": {
+        "type": "image",
+        "path": "C:/Users/temaune/Desktop/DynamicWallpaper2/res/0442af7cbfafcad8d3ae666c3eda5e45.jpg"
+    },
+    "effects_playlist": [
+        {
+            "effect": "cyber_swarm",
+            "config": {
+                "count": 150,
+                "hue_min": 180,
+                "hue_max": 220
+            }
+        },
+        {
+            "effect": "matrix_rain",
+            "config": {
+                "font_size": 24,
+                "speed_min": 15.0,
+                "speed_max": 30.0
+            }
+        },
+        {
+            "effect": "galactic_core",
+            "config": {
+                "stars": 3000,
+                "arms": 3,
+                "color_core": [
+                    100,
+                    255,
+                    255
+                ],
+                "color_arms": [
+                    180,
+                    200,
+                    220,
+                    240
+                ]
+            }
+        },
+        {
+            "effect": "aurora_borealis",
+            "config": {
+                "speed": 2.0,
+                "hue_min": 200,
+                "hue_max": 260
+            }
+        },
+        {
+            "effect": "tesseract_4d",
+            "config": {
+                "speed": 0.5,
+                "color_edges": [
+                    255,
+                    0,
+                    100
+                ],
+                "edge_alpha": 200
+            }
+        },
+        {
+            "effect": "wormhole",
+            "config": {
+                "speed": 40.0,
+                "hue_min": 0.0,
+                "hue_max": 0.2
+            }
+        },
+        {
+            "effect": "constellation_net",
+            "config": {
+                "points": 150,
+                "hue_min": 0,
+                "hue_max": 60
+            }
+        },
+        {
+            "effect": "warp_speed",
+            "config": {
+                "speed": 60.0,
+                "stars": 800
+            }
+        },
+        {
+            "effect": "spider_swarm",
+            "config": {
+                "count": 50,
+                "color_body": [
+                    20,
+                    0,
+                    0
+                ],
+                "color_eyes": [
+                    0,
+                    255,
+                    0
+                ]
+            }
+        },
+        {
+            "effect": "void_tendrils",
+            "config": {
+                "count": 25,
+                "color_base": [
+                    0,
+                    20,
+                    20
+                ],
+                "color_tip": [
+                    0,
+                    255,
+                    255
+                ]
+            }
+        }
+    ],
+    "playlist_interval": 10000,
+    "widgets": [
+        {
+            "type": "clock",
+            "anchor": "top-right",
+            "x": 30,
+            "y": 30
+        }
+    ]
+}
